@@ -81,7 +81,7 @@ def process_frame(frame, face_detector):
                     save_unknown_face(face_crop)
 
         except Exception as e:
-            print(f"⚠️ Recognition error: {e}")
+            print(f"Recognition error: {e}")
             name = "Error"
             color = (0, 255, 255)
 
