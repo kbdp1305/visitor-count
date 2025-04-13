@@ -21,7 +21,7 @@ def save_cameras(cameras: List[Dict]):
 # try:
 #     with open(camera_file_path, "r") as f:
 #         cameras = json.load(f)
-#         print("📸 Loaded Cameras:")
+#         print("Loaded Cameras:")
 #         for cam in cameras:
 #             print(json.dumps(cam, indent=4))
 # except FileNotFoundError:
